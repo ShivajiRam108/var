@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <h1>hello world!</h1>
+   <script src="./index.js"></script>
+</body>
+</html>
+
+
+
+
+             <!-- Test -->
+
+<!-- 1.	What is the value of x after the code executes?
+ 	var x;
+x = 5;
+var x = 10;
+–	
+A)	5
+–	
+B)	10
+–	
+C)	Undefined               
+–	
+D)	Error
+________________________________________
+2.	What is the output of the following code?
+ 	console.log(x);
+var x = 15;
+–	
+A)	15
+–	
+B)	Undefined
+–	
+C)	ReferenceError
+–	
+D)	Null
+________________________________________
+3.	How many times is the variable y redeclared in this code?
+ 	var y = 1;  
+var y = 2;  
+y = 3;  
+–	
+A)	1
+–	
+B)	2
+–	
+C)	3
+–	
+D)	0
+________________________________________
+4.	What happens when you declare a var variable without initializing it?
+ 	var b;
+console.log(b);
+–	
+A)	Null
+–	
+B)	Undefined
+–	
+C)	Error
+–	
+D)	0
+________________________________________
+5.	What will the following code print?
+ 	var a = 1;
+{
+    var a = 2;
+}
+console.log(a);
+–	
+A)	1
+–	
+B)	2
+–	
+C)	Undefined
+–	
+D)	Error
+________________________________________
+6.	What happens when you declare a var variable inside a block and access it outside?
+ 	{
+    var c = 10;
+}
+console.log(c);
+–	
+A)	Error
+–	
+B)	Undefined
+–	
+C)	10
+–	
+D)	Null
+________________________________________
+7.	What is the output of the following code?
+ 	var p;
+console.log(p);
+p = 20;
+–	
+A)	Undefined
+–	
+B)	20
+–	
+C)	Null
+–	
+D)	Error
+________________________________________
+8.	What happens if you declare a var variable and later redeclare it in the same scope?
+ 	var q = 5;  
+var q = 10;  
+console.log(q);
+–	
+A)	5
+–	
+B)	10
+–	
+C)	Error
+–	
+D)	Undefined
+________________________________________
+9.	What is the value of r after this code executes?
+ 	var r;
+r = 30;
+var r = 50;
+–	
+A)	30
+–	
+B)	50
+–	
+C)	Undefined
+–	
+D)	Error
+________________________________________
+10.	What will this code output?
+ 	console.log(x);
+var x = 25;
+–	
+A)	Undefined
+–	
+B)	25
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+11.	What happens if you try to access a var variable before declaring it?
+ 	console.log(a);
+var a = 40;
+–	
+A)	Undefined
+–	
+B)	ReferenceError
+–	
+C)	40
+–	
+D)	Null
+________________________________________
+12.	What happens in this code?
+ 	var t = 10;  
+var t;  
+console.log(t);
+–	
+A)	Undefined
+–	
+B)	10
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+13.	What happens if you assign a value to a var variable before declaring it?
+ 	x = 100;  
+var x;  
+console.log(x);
+–	
+A)	100
+–	
+B)	Undefined
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+14.	What happens when you declare a var variable twice in a global scope?
+ 	var y = 5;  
+var y = 10;  
+–	
+A)	Error
+–	
+B)	Redefines the value
+–	
+C)	Ignored second declaration
+–	
+D)	None of the above
+________________________________________
+15.	What is the output of this code?
+ 	var z = 1;  
+z = 2;  
+console.log(z);
+–	
+A)	1
+–	
+B)	2
+–	
+C)	Undefined
+–	
+D)	Error
+________________________________________
+16.	What is the value of _Xyz12$ in this code?
+ 	var _Xyz12$;
+_Xyz12$ = 45;
+console.log(_Xyz12$);
+–	
+A)	Undefined
+–	
+B)	45
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+17.	What will this code output?
+ 	var $num_Val = 8;  
+$num_Val = 16;  
+console.log($num_Val);
+–	
+A)	8
+–	
+B)	16
+–	
+C)	Undefined
+–	
+D)	Error
+________________________________________
+18.	What happens in this code?
+ 	console.log(_x_Val12);  
+var _x_Val12 = 27;  
+–	
+A)	Undefined
+–	
+B)	27
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+19.	What is the final value of Val_12X$?
+ 	var Val_12X$ = 10;  
+Val_12X$ = 20;  
+console.log(Val_12X$);
+–	
+A)	10
+–	
+B)	20
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+20.	What happens here?
+ 	console.log(VAL_num);  
+var VAL_num = "Test";  
+–	
+A)	Undefined
+–	
+B)	Test
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+21.	What does this code print?
+ 	var $count = 5;  
+$count = $count + 3;  
+console.log($count);
+–	
+A)	5
+–	
+B)	8
+–	
+C)	Undefined
+–	
+D)	Error
+________________________________________
+22.	What is the result of this code?
+ 	var _alpha$ = 50;  
+var _alpha$ = 100;  
+console.log(_alpha$);
+–	
+A)	50
+–	
+B)	100
+–	
+C)	Error
+–	
+D)	Undefined
+________________________________________
+23.	What happens in this code?
+ 	var A1b_2$ = 1;  
+console.log(A1b_2$);
+–	
+A)	1
+–	
+B)	Undefined
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+24.	What does this print?
+ 	var $$$ = 99;  
+$$$ = 88;  
+console.log($$$);
+–	
+A)	99
+–	
+B)	88
+–	
+C)	Undefined
+–	
+D)	Error
+________________________________________
+25.	What is the output of this code?
+ 	var _vA_rX = "Code";  
+console.log(_vA_rX);
+–	
+A)	Undefined
+–	
+B)	Code
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+26.	What happens when this executes?
+ 	var X_$12;  
+console.log(X_$12);  
+X_$12 = 123;
+–	
+A)	Undefined
+–	
+B)	123
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+27.	What is the behavior of __X_var$ in this scenario?
+ 	var __X_var$ = "Hello";  
+var __X_var$ = "World";  
+console.log(__X_var$);
+–	
+A)	Hello
+–	
+B)	World
+–	
+C)	Error
+–	
+D)	Undefined
+________________________________________
+28.	What will this output?
+ 	var VaR_$$ = "Testing";  
+console.log(VaR_$$);
+–	
+A)	Undefined
+–	
+B)	Testing
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+29.	What happens here?
+ 	console.log($$$Alpha);  
+var $$$Alpha = 55;  
+–	
+A)	Undefined
+–	
+B)	55
+–	
+C)	Error
+–	
+D)	Null
+________________________________________
+30.	What is the final value of 12x$var_?
+ 	var 12x$var_ = 100;  
+console.log(12x$var_);
+–	
+A)	100
+–	
+B)	Undefined
+–	
+C)	Error
+–	
+D)	Null -->
